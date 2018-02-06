@@ -113,7 +113,7 @@
 
 - (UIPageControl *)pageControl{
     if (!_pageControl) {
-        _pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(0, kSelfHeight+self.frame.origin.y - 100, kSelfWidth, 10)];
+        _pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(0, kSelfHeight+self.bounds.origin.y - 50, kSelfWidth, 10)];
         _pageControl.currentPage = 1;
         _pageControl.numberOfPages = self.dataArr.count - 2;
         _pageControl.backgroundColor = [UIColor clearColor];
