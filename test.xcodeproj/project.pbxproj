@@ -15,10 +15,9 @@
 		7472611C1FE8F6B800B10034 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7472611B1FE8F6B800B10034 /* testTests.m */; };
 		747261271FE8F6B800B10034 /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 747261261FE8F6B800B10034 /* testUITests.m */; };
 		7472613C1FE8F79D00B10034 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7472613A1FE8F79D00B10034 /* ViewController1.m */; };
-		747261421FE90B2600B10034 /* timg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 747261411FE90B2600B10034 /* timg.jpg */; };
-		74E753F920294CB800A28192 /* HJCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E753F820294CB800A28192 /* HJCycleView.m */; };
-		74E753FD20294D4400A28192 /* CycleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E753FB20294D4400A28192 /* CycleCollectionViewCell.m */; };
-		74E753FE20294D4400A28192 /* CycleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E753FC20294D4400A28192 /* CycleCollectionViewCell.xib */; };
+		74E7540E20298A0800A28192 /* CycleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E7540B20298A0800A28192 /* CycleCollectionViewCell.m */; };
+		74E7540F20298A0800A28192 /* CycleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E7540C20298A0800A28192 /* CycleCollectionViewCell.xib */; };
+		74E7541020298A0800A28192 /* HJCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E7540D20298A0800A28192 /* HJCycleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,12 +54,11 @@
 		747261281FE8F6B800B10034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		747261391FE8F79D00B10034 /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
 		7472613A1FE8F79D00B10034 /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
-		747261411FE90B2600B10034 /* timg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpg; sourceTree = "<group>"; };
-		74E753F720294CB800A28192 /* HJCycleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJCycleView.h; sourceTree = "<group>"; };
-		74E753F820294CB800A28192 /* HJCycleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJCycleView.m; sourceTree = "<group>"; };
-		74E753FA20294D4400A28192 /* CycleCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleCollectionViewCell.h; sourceTree = "<group>"; };
-		74E753FB20294D4400A28192 /* CycleCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleCollectionViewCell.m; sourceTree = "<group>"; };
-		74E753FC20294D4400A28192 /* CycleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CycleCollectionViewCell.xib; sourceTree = "<group>"; };
+		74E7540920298A0800A28192 /* CycleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleCollectionViewCell.h; sourceTree = "<group>"; };
+		74E7540A20298A0800A28192 /* HJCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCycleView.h; sourceTree = "<group>"; };
+		74E7540B20298A0800A28192 /* CycleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleCollectionViewCell.m; sourceTree = "<group>"; };
+		74E7540C20298A0800A28192 /* CycleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CycleCollectionViewCell.xib; sourceTree = "<group>"; };
+		74E7540D20298A0800A28192 /* HJCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCycleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +109,7 @@
 		747261011FE8F6B800B10034 /* test */ = {
 			isa = PBXGroup;
 			children = (
-				74E753F620294C4A00A28192 /* HJCycleViewController */,
-				747261411FE90B2600B10034 /* timg.jpg */,
+				74E7540820298A0800A28192 /* HJCycleView */,
 				747261391FE8F79D00B10034 /* ViewController1.h */,
 				7472613A1FE8F79D00B10034 /* ViewController1.m */,
 				747261021FE8F6B800B10034 /* AppDelegate.h */,
@@ -144,16 +141,16 @@
 			path = testUITests;
 			sourceTree = "<group>";
 		};
-		74E753F620294C4A00A28192 /* HJCycleViewController */ = {
+		74E7540820298A0800A28192 /* HJCycleView */ = {
 			isa = PBXGroup;
 			children = (
-				74E753F720294CB800A28192 /* HJCycleView.h */,
-				74E753F820294CB800A28192 /* HJCycleView.m */,
-				74E753FA20294D4400A28192 /* CycleCollectionViewCell.h */,
-				74E753FB20294D4400A28192 /* CycleCollectionViewCell.m */,
-				74E753FC20294D4400A28192 /* CycleCollectionViewCell.xib */,
+				74E7540920298A0800A28192 /* CycleCollectionViewCell.h */,
+				74E7540A20298A0800A28192 /* HJCycleView.h */,
+				74E7540B20298A0800A28192 /* CycleCollectionViewCell.m */,
+				74E7540C20298A0800A28192 /* CycleCollectionViewCell.xib */,
+				74E7540D20298A0800A28192 /* HJCycleView.m */,
 			);
-			path = HJCycleViewController;
+			path = HJCycleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,10 +259,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74E7540F20298A0800A28192 /* CycleCollectionViewCell.xib in Resources */,
 				7472610F1FE8F6B800B10034 /* LaunchScreen.storyboard in Resources */,
 				7472610C1FE8F6B800B10034 /* Assets.xcassets in Resources */,
-				74E753FE20294D4400A28192 /* CycleCollectionViewCell.xib in Resources */,
-				747261421FE90B2600B10034 /* timg.jpg in Resources */,
 				7472610A1FE8F6B800B10034 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,10 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7472613C1FE8F79D00B10034 /* ViewController1.m in Sources */,
-				74E753FD20294D4400A28192 /* CycleCollectionViewCell.m in Sources */,
 				747261121FE8F6B800B10034 /* main.m in Sources */,
-				74E753F920294CB800A28192 /* HJCycleView.m in Sources */,
+				74E7541020298A0800A28192 /* HJCycleView.m in Sources */,
 				747261041FE8F6B800B10034 /* AppDelegate.m in Sources */,
+				74E7540E20298A0800A28192 /* CycleCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
